@@ -3,14 +3,75 @@
     src: url(BebasNeue-Regular.ttf);
 }
 body {
-    background-image: linear-gradient(180deg, #175728, #171d57);
+    background-image: linear-gradient(180deg, #175728, #5aa36d);
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
-    color: #e1ebe2;
+    color: black;
     background-attachment: fixed;
     height: 100%;
 }
-#title {
+.title {
     font-family: bebasNeue;
     font-size: 4rem;
 }
+.sites {
+    max-width: 4rem;
+}
+.profile-picture {
+    margin-top: 2rem;
+    height: 20%;
+    max-height: 10rem;
+    width: auto;
+    border: 5px solid #e1ebe2;
+    border-radius: 100px;
+}
+.circles-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.circles-wrapper > div {
+    display: flex;
+    border: 5px solid #e1ebe2;
+    border-radius: 100px;
+    background-color: #e1ebe2;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+}
+.circle {
+    /* color: #e1ebe2; */
+    transition: 0.5s;
+}
+.circle:hover {
+    background-color: #616b64;
+    border-color: #616b64;
+}
+/* .one {
+    grid-column: 1;
+    grid-row: 1;
+}
+.two {
+    grid-column: 2;
+    grid-row: 1;
+}
+.three {
+    grid-column: 3;
+    grid-row: 1;
+}
+.four {
+    grid-column: 4;
+    grid-row: 1;
+}
+.five {
+    grid-column: 5;
+    grid-row: 1;
+}
+.six
+{
+    grid-column: 6;
+    grid-row: 1;
+} */

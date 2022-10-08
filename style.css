@@ -10,15 +10,35 @@ body {
     background-attachment: fixed;
     height: 100%;
 }
-.title {
-    font-family: bebasNeue;
-    font-size: 4rem;
+.main {
     margin-top: 1rem;
+    display: flex grid;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.title {
+    grid-row: 1;
+    display: flex grid;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    font-family: bebasNeue;
+}
+.title-name {
+    grid-row: 2;
+    font-size: 4rem;
+    margin: 0.5rem 2rem -0.5rem 2rem;
+}
+.subtitle {
+    grid-row: 2;
+    font-size: 1rem;
 }
 .sites {
     max-width: 4rem;
 }
 .profile-picture {
+    grid-row: 1;
     margin-top: 2rem;
     height: 20%;
     max-height: 10rem;
@@ -27,7 +47,6 @@ body {
     border-radius: 100px;
 }
 .circles-wrapper {
-    margin-top: 1rem;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
